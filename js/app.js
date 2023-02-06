@@ -3454,6 +3454,7 @@
         if (document.querySelector(".work-slider")) new core(".work-slider", {
             modules: [ Navigation ],
             speed: 300,
+            loop: true,
             navigation: {
                 prevEl: ".work-button-prev",
                 nextEl: ".work-button-next"
@@ -3484,6 +3485,7 @@
         if (document.querySelector(".reviews-slider")) new core(".reviews-slider", {
             modules: [ Navigation ],
             speed: 300,
+            loop: true,
             navigation: {
                 prevEl: ".reviews-button-prev",
                 nextEl: ".reviews-button-next"
